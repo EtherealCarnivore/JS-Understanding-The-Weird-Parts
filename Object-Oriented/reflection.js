@@ -24,3 +24,17 @@ for (var prop in john){
     }
    
 }
+
+
+var jane = {
+    address: '6969 Main St.',
+    getFormalFullName: function() {
+        return this.lastname + ' ' + this.firstname
+    }
+}
+
+var jim = {
+    getFirstName: function() {
+        return firstname;
+    }
+}
